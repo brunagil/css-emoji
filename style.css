@@ -1,0 +1,82 @@
+/* MAIN */
+
+* {
+    box-sizing: border-box;
+}
+
+/* PARA CENTRALIZAR O EMOJI NA TELA */
+
+.centralize {
+    margin: 0 auto;
+    width: 15em;
+}
+
+/* DRAW EMOJI */ 
+
+/* Face */
+.emoji__face{
+    height: 200px;
+    width: 200px;
+    margin-top: 200px;
+    border-radius: 150px;
+    background: #FFC107;
+    border: 3px solid orange;
+    box-shadow: 0 5px 5px rgba(31, 28, 28, 0.73);
+    transition: 0.5s ease-in-out;
+}
+
+/* mudança de cor */
+.emoji__face:hover {
+    background-image: radial-gradient(circle, #ffc107, #f8b305, #f0a504, #e79705, #de8a07);
+}
+
+
+.emoji__eye{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background: white;
+    margin-top: 62px;
+    margin-left: 23px;
+    border: 1px solid black;
+}
+
+.emoji__eye-pupil {
+    height: 23px;
+    width: 23px;
+    background: black;
+    border-radius: 50px;
+    position: absolute;
+    top: 265px;
+    margin-left: 40px;
+
+}
+.emoji__eye2 {
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background: white;
+    margin-top: -60px;
+    margin-left: 105px;
+    border: 1px solid black;
+}
+
+.emoji__eye-pupil2 {
+    height: 23px;
+    width: 23px;
+    background: black;
+    border-radius: 50px;
+    position: absolute;
+    top: 265px;
+    margin-left: 122px;
+}
+
+.emoji__mouth{
+    height: 10px;
+    width: 43px;
+    margin-top: 26px;
+    background: #5c3a13;
+    border-radius: 60px;
+    margin-left: 74px;
+    border: 1px outset black;
+}
